@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Zent Cash - Payment ID Generator</title>
+    <meta name="description" content="Zent Cash is Digital Currency You Can Spend Anywhere. Use Zent Cash to make secure, instant, private payments online or in-store using our secure open-source platform hosted by thousands of users around the world." />
+    <meta name="keywords" content="zent cash, currency, blockchain, anonymous, private, untraceable, bank, fintech, cryptocurrency, mining, exchange, zent, bytecoin, monero, dash, payment, Zent Cash, world, binance, payment id"/>
+    <meta charset="UTF-8">
+    <meta name="robots" content="index,follow"/>
+    <meta name="language" content="en"/>
+    <meta name="distribution" content="global"/>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="shortcut icon" href="assets/img/icon/favicon.ico" type="image/x-icon"/>
+    <link rel="apple-touch-icon" href="assets/img/icon/apple-touch-icon.png"/>
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/img/icon/apple-touch-icon-57x57.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/img/icon/apple-touch-icon-72x72.png"/>
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/img/icon/apple-touch-icon-76x76.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/img/icon/apple-touch-icon-114x114.png"/>
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/img/icon/apple-touch-icon-120x120.png"/>
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/img/icon/apple-touch-icon-144x144.png"/>
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/img/icon/apple-touch-icon-152x152.png"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/icon/apple-touch-icon-180x180.png"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="assets/js/paymentid.js"></script>
+</head>
+<body>
+  <div class="menu">
+    <img src="assets/img/logo.png" alt="Zent Cash">
+    <h1 class="text-center">Payment ID Generator</h1>
+  </div>
+  <div class="container">
+    <h2>Random Payment ID</h2>
+    <div class="text-center">
+      <input type="text" id="random-id-value" readonly>
+      <button id="random-id-button">Genrated random Payment ID</button>
+    </div>
+    <h2>Custom Payment ID</h2>
+    <div>
+      <label for="custom-id-input">Provide hex values [0-9a-f]</label>
+    	<input type="text" id="custom-id-input">
+      <label for="custom-id-value">Generated Payment ID</label>
+      <input type="text" id="custom-id-value" readonly>
+      <p></p>
+    </div>
+    <h2>Custom ASCII encoded Payment ID</h2>
+    <div>
+        <label for="ascii-id-input">Provide ASCII characters</label>
+      	<input type="text" id="ascii-id-input">
+        <label for="ascii-id-value">Generated Payment ID</label>
+        <input type="text" id="ascii-id-value" readonly>
+        <p>ASCII Payment ID can be decoded, for example
+          <a target="_blank" href="http://www.rapidtables.com/convert/number/hex-to-ascii.htm">here</a>.
+        </p>
+    </div>
+    <br/>
+  </div>
+  <footer class="footer">
+    <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-6 ">
+              <div class="footer-item">
+                  <div class="widget-text-content"><i class="fa fa-warning"></i> Note that for privacy reasons it is better to use integrated addresses, instead of these Payments IDs.</div>
+              </div>
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-6">
+              <div class="footer-item">
+                  <div class="widget-text-content"><i class="fa fa-github"></i><a href="https://github.com/ZentCashFoundation/payment-id-generator"> Source Code</a></div>
+              </div>
+         </div>
+       </div>
+    </div>
+	<div class="footer-copyright">© 2021 Zent Cash. All rights Reserved.</div>
+   </footer>
+</body>
+</html>
